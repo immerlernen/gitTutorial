@@ -1,4 +1,5 @@
 github tutorial
+https://www.bing.com/videos/search?q=youtube+traversy+media+git+and+github&qpvt=youtube+traversy+media+git+and+github&view=detail&mid=FC6EC36264374CB6F543FC6EC36264374CB6F543&FORM=VRDGAR
 
 cd,change directory
 ls,listsoruces
@@ -10,6 +11,9 @@ git config --global user.email 'email',set your email in the system
 
 git init,initializes a local git repository in folder you're currently sitting in
 git clone,copies repository into directory
+get checkout branchname,switch to a different branch
+git merge subbranch,when you're in the master branch the command merges the subbranch with merge
+
 git status,shows what is different between our local version and what's in the cloud
 git add <file>,add any new files by name to the staging area. can run as many times as needed before committing
 git status,displays differences between working tree & staging area of the index paths
