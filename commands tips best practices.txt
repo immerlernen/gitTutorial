@@ -1,0 +1,35 @@
+github tutorial
+
+cd,change directory
+ls,listsoruces
+mkdir,create new directory (folder)
+touch,create new file
+
+git config --global user.name 'username',set your username in the system
+git config --global user.email 'email',set your email in the system
+
+git init,initializes a local git repository in folder you're currently sitting in
+git clone,copies repository into directory
+git status,shows what is different between our local version and what's in the cloud
+git add <file>,add any new files by name to the staging area. can run as many times as needed before committing
+git status,displays differences between working tree & staging area of the index paths
+git status 'Changes not staged for commit',indicates that changes have been made to the local version of the file that aren't in the file vesrion in the staging area 
+git add .,add all files in directory
+git add *.html,add all files with html to staging area
+git rm --cached <file>,remove a file from the staging area
+git ignore,'touch .gitignore' creates a file where you input file names which should always be ignored when adding and committing to remote repository, such as the 'log.txt' or entire directories like '/dir'
+git commit -m "message for upload",commit the change with a message to comment - leaves the commit local
+git push,sync local with cloud- pushes to remote repository like github
+git pull,sync cloud with local- pulls from remote repository like github
+step2,open folder in text editor
+basic commands, 1. 'git add <file>' 2. 'git status' 3. 'git commit -m "succinct comment"'
+remote repository commands, 1. 'git push' 2. 'git pull' 3. 'git clone'
+
+bestPractice 0,'https://chriskottom.com/blog/2014/02/a-few-modest-best-practices-for-git/'
+bestPractice 1,each morning run 'git pull' to get changes committed overnight
+bestPractice 2,use 'git add .'' sparingly
+bestPractice 3,review code before checkin with 'git diff'
+bestPractice 4,keep comments tight in '-m' 
+bestPractice 5,good branch hygiene by removing extraneous branches 'git push origin --delete <branch name>'
+bestPractice 6,create ssh key to avoid having to input password
+bestPractice 7,use the git bash, not the regular cmd
